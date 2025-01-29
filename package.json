@@ -1,0 +1,22 @@
+{
+  "name": "bun-express",
+  "module": "server.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "prettier": "3.4.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "start": "tsx server.ts",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@ryanflorence/async-provider": "^0.0.1",
+    "express": "^4.21.2",
+    "tsx": "^4.19.2",
+    "winston": "^3.17.0"
+  }
+}
